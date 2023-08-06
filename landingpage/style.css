@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background: #dfe7fd;
+  cursor: crosshair;
+}
+canvas {
+  display: block;
+  background: #dfe7fd;
+}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #dfe7fd;
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
