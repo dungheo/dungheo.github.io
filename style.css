@@ -94,6 +94,7 @@ p {
   outline-style: dashed;
 }
 
+.birthdayCard:active,
 .birthdayCard:hover {
   transform: perspective(2500px) rotate(5deg);
   box-shadow:
@@ -101,10 +102,12 @@ p {
     0 10px 100px rgba(0, 0, 0, 0.5);
 }
 
+.birthdayCard:active .cardFront,
 .birthdayCard:hover .cardFront {
   transform: rotateY(-160deg);
 }
 
+.birthdayCard:active .happy,
 .birthdayCard:hover .happy {
   visibility: hidden;
 }
